@@ -1,5 +1,5 @@
 /*
- * autor : Theo RAMET
+ * author : Theo RAMET
  */
 #include <Keyboard.h>
 
