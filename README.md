@@ -1,3 +1,3 @@
 # HID_Arduino_Leonardo
 Ethical discover of hack by HID.
-Actually worked on mac.
+Normally worked on mac. Otherwise refer to my username.
