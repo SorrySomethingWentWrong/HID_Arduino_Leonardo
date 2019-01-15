@@ -37,7 +37,7 @@ void setup() {
   /*
    * Wait system to breath...
    */
-  delay(200);
+  delay(500);
   Keyboard.press(KEY_DOWN_ARROW);
   delay(1);
   Keyboard.releaseAll();
@@ -69,4 +69,3 @@ void loop() {
    * nothing happens after setup
    */
 }
-
