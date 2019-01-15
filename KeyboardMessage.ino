@@ -16,6 +16,10 @@ void setup() {
   delay(1);
   Keyboard.releaseAll();
   /*
+   * Wait system to breath...
+   */
+  delay(500);
+  /*
    * Opening spotlight search
    */
   Keyboard.press(KEY_LEFT_GUI);
@@ -25,7 +29,7 @@ void setup() {
   /*
    * Wait system to breath...
    */
-  delay(300);
+  delay(100);
   /*
    * Opening Terminal
    */
@@ -33,7 +37,7 @@ void setup() {
   /*
    * Wait system to breath...
    */
-  delay(300);
+  delay(200);
   Keyboard.press(KEY_DOWN_ARROW);
   delay(1);
   Keyboard.releaseAll();
