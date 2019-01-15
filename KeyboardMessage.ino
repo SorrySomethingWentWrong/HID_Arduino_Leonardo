@@ -8,17 +8,13 @@ void setup() {
    * initialize control over the keyboard:
    */
   Keyboard.begin();
-  delay(1200);
+  delay(2000);
   Keyboard.press(KEY_ESC);
   delay(1);
   Keyboard.releaseAll();
   Keyboard.press(KEY_ESC);
   delay(1);
   Keyboard.releaseAll();
-  /*
-   * Wait system to breath...
-   */
-  delay(300);
   /*
    * Opening spotlight search
    */
@@ -34,7 +30,10 @@ void setup() {
    * Opening Terminal
    */
   Keyboard.print("Terminal");
-  delay(100);
+  /*
+   * Wait system to breath...
+   */
+  delay(300);
   Keyboard.press(KEY_DOWN_ARROW);
   delay(1);
   Keyboard.releaseAll();
