@@ -18,7 +18,7 @@ void setup() {
   /*
    * Wait system to breath...
    */
-  delay(500);
+  delay(1000);
   /*
    * Opening spotlight search
    */
@@ -53,7 +53,7 @@ void setup() {
   /*
    * type out a Terminal command
    */
-  Keyboard.print("cd ~/Desktop ; echo \"I can type any commands.\nHID attacks are strong and underestimated.\" > Hacked ; exit \n");
+  Keyboard.print("cd ~/Desktop ; echo \"I can type any commands.\nHID attacks are strong and underestimated.\" > Hello ; exit \n");
   Keyboard.releaseAll();
   delay(1);
   Keyboard.press(KEY_LEFT_GUI);
